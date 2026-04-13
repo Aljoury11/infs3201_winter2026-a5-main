@@ -73,4 +73,5 @@ It implements authentication, session management, two-factor authentication (2FA
 
 ---
 
-## Project Structure
+Username: admin
+Password: adminpass
