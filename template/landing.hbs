@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="/public/style.css">
+<h1>List of Employees</h1>
+<ul>
+    {{#each empList}}
+    <li><a href="/employee/{{_id}}">{{name}}</a></li>
+    {{/each}}
+</ul>
+<a href="/logout">Logout</a>
