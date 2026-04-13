@@ -1,7 +1,6 @@
 const fs = require('fs/promises')
 const { MongoClient, ObjectId } = require('mongodb')
 const crypto = require('crypto')
-
 let clientCache = null
 let databaseCache = null
 
