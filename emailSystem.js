@@ -7,7 +7,6 @@
  * @param {string} body
  */
 function sendEmail(recipient, title, body) {
-
     const separatorStart = "===== EMAIL BEGIN ====="
     const separatorEnd = "===== EMAIL FINISH ====="
 
