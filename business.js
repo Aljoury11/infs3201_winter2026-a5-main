@@ -1,7 +1,6 @@
 const persistence = require('./persistence.js')
 const crypto = require('crypto')
 const emailSystem = require('./emailSystem')
-
 /**
  * In-memory storage for pending 2FA verification codes.
  * Format:
